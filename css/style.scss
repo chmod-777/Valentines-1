@@ -240,7 +240,7 @@ i.scroll:hover {
 }
 
 i:hover {
-  color: $tertiary-color;
+  color: lighten($primary-color, 15);
 }
 
 /* Responsive */
