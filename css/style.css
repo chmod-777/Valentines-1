@@ -33,7 +33,7 @@ h1, h2, h3 {
   margin-right: -250px;
   right: 0;
   width: 250px;
-  background: #C9302C;
+  background: #fff;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -57,7 +57,7 @@ h1, h2, h3 {
   text-indent: 20px; }
 
 .sidebar-nav li a {
-  color: #999999;
+  color: #820000;
   display: block;
   text-decoration: none; }
 
@@ -114,12 +114,12 @@ h1, h2, h3 {
 
 /* Intro */
 .intro {
-  padding: 50px 0; }
+  padding: 50px 0;
+  color: #820000; }
 
 /* Services */
 .services {
   background: #820000;
-  /*#7fbbda;*/
   padding: 50px 0;
   color: #ffffff; }
 
@@ -170,7 +170,8 @@ i.service-icon {
 
 /* Footer */
 footer {
-  padding: 100px 0; }
+  padding: 100px 0;
+  color: #820000; }
 
 .top-scroll {
   margin-top: 50px; }
@@ -186,7 +187,7 @@ i.scroll:hover {
   color: #820000; }
 
 i:hover {
-  color: #C9302C; }
+  color: #fff; }
 
 /* Responsive */
 @media (max-width: 768px) {
