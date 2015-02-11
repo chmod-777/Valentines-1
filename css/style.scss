@@ -1,15 +1,39 @@
+/* Variables */
+
+$primary-color: #820000;
+$secondary-color: #fff;
+$tertiary-color: #C9302C;
+$fonts: 'Dancing Script', cursive;
+
 /* Global Styles */
 
 html,
 body {
   height: 100%;
   width: 100%;
+  font-family: $fonts;
+  font-size: 1.2em;
+
+}
+
+h1, h2, h3 {
+ font-family: $fonts; 
+
+}
+
+.header .vert-text {
+  padding-top: 350px;
 }
 
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  color: white; 
+}
+
+#vert-textb {
+  color: white;
 }
 
 .vert-text h1 {
@@ -17,6 +41,7 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+  
 }
 
 /* Side Menu */
@@ -25,7 +50,7 @@ body {
   margin-right: -250px;
   right: 0;
   width: 250px;
-  background: #820000;
+  background: $tertiary-color;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -127,7 +152,7 @@ body {
 /* Services */
 
 .services {
-  background: #820000; /*#7fbbda;*/
+  background: $primary-color; /*#7fbbda;*/
   padding: 50px 0;
   color: #ffffff;
 }
@@ -181,7 +206,7 @@ i.service-icon {
 
 .call-to-action {
   color: #ffffff;
-  background: #820000;
+  background: $primary-color;
   padding: 50px 0;
 }
 
@@ -209,8 +234,13 @@ i.scroll {
 }
 
 i.scroll:hover {
-  color: #820000;
+  color: $primary-color;
 }
+
+i:hover {
+  color: $tertiary-color;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -227,4 +257,10 @@ i.scroll:hover {
 	height: 75%;
   }
 
+}
+
+// Random styles
+
+a i {
+  color: $primary-color;
 }
